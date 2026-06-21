@@ -28,7 +28,7 @@ achievements: The Primary Purpose of the Post is to share a User’s of their Pe
      - "Finally beat the Elite Four with my Mono Fire Run!”
      - “After 15,357 encounters, I finally found a Shiny Riolu!”
 
-discussions: The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
+discussion: The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
      - “I created a Pokemon Unbound Sequel/Remake.”
      - “Do you guys think Unbound is better than Radical Red?”
 
@@ -56,14 +56,14 @@ I will collect the Posts from the r/PokemonUnbound SubReddit. My Goal is to gath
 ### Evaluation Metrics
 <!-- Which metrics will you use to evaluate your model and why are those the right ones for this specific task?
      (Accuracy alone is not enough — explain what else you need and why.) -->
-The Metrics that I will be using to evaluate the classifier would be Accuracy, Precision, Recall, F1 Score and a Confusion Matrix. Accuracy measures the overall percentage of the correctly classified Posts, but it doesn’t reveal whether the Model performs well across all the labels, hence why Accuracy alone isn’t enough. That is why, Precision, Recall and F1 Score will be calculated for each label to evaluate how effectively the Model distinguishes between help_request, achievements, discussions, and team-building Posts. I will also be using Confusion Matrix to identify which labels are most frequently confused with one another, particularly help_request and team_building.
+The Metrics that I will be using to evaluate the classifier would be Accuracy, Precision, Recall, F1 Score and a Confusion Matrix. Accuracy measures the overall percentage of the correctly classified Posts, but it doesn’t reveal whether the Model performs well across all the labels, hence why Accuracy alone isn’t enough. That is why, Precision, Recall and F1 Score will be calculated for each label to evaluate how effectively the Model distinguishes between help_request, achievements, discussion, and team-building Posts. I will also be using Confusion Matrix to identify which labels are most frequently confused with one another, particularly help_request and team_building.
 
 ---
 
 ### Definition of Success
 <!-- What performance would make this classifier genuinely useful?
      What would you accept as "good enough" for deployment in a real community tool? -->
-The type of performance that I would consider the classifier to be successful is if it achieves an F1 Score of at least 0.70 for each of the labels. This Level of Performance would indicate that the Model can be reliably distinguished between the help_request, achievements, discussions, and team-building Posts. For a Real Community Tool, I would consider the Model “good enough” if it correctly classifies the Majority of the Posts while making occasional Mistakes on Ambiguous Cases.
+The type of performance that I would consider the classifier to be successful is if it achieves an F1 Score of at least 0.70 for each of the labels. This Level of Performance would indicate that the Model can be reliably distinguished between the help_request, achievements, discussion, and team-building Posts. For a Real Community Tool, I would consider the Model “good enough” if it correctly classifies the Majority of the Posts while making occasional Mistakes on Ambiguous Cases.
 
 ---
 
