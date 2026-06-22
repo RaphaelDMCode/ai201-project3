@@ -4,6 +4,11 @@ A fine-tune text classifier that evaluates discourse quality in the r/PokemonUnb
 
 ---
 
+## Community
+The Community that I’ve chosen is r/PokemonUnbound, a SubReddit dedicated to the Pokémon Unbound Rom Hack. This Community is a Good Fit for a Classification Task because Users are able to create different types of Posts, including requesting help, showcasing their achievements, team recommendations, and any general discussions about the Game itself. Since Users interact with the Community for different purposes, the discourse is varied enough to make the classification meaningful and interesting.
+
+---
+
 ## Annotated Dataset
 See r_PokemonUnbound_Posts_Data
 
@@ -22,11 +27,6 @@ Example 3:
 Post: "Quick trade, need a scyther. Anybody got a Scyther they could trade real quick?"
 Decision: discussion
 Reasoning: Despite the fact that the User is asking for an assistance, in which this case, a trade, this post doesn't generally ask needing help regarding the game mechanics. It is more like a deal with other users.
-
----
-
-## Community
-The Community that I’ve chosen is r/PokemonUnbound, a SubReddit dedicated to the Pokémon Unbound Rom Hack. This Community is a Good Fit for a Classification Task because Users are able to create different types of Posts, including requesting help, showcasing their achievements, team recommendations, and any general discussions about the Game itself. Since Users interact with the Community for different purposes, the discourse is varied enough to make the classification meaningful and interesting.
 
 ---
 
