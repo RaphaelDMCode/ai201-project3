@@ -137,7 +137,6 @@ One improvement would be including the images alongside the post text. Many r/Po
 | Struggling on Vanilla difficulty 🤦🏽‍♀️. So embarrassing, but I can't beat the last fight in the mansion 🤦🏽‍♀️ what Pokémon should I use please? | help_request | 0.28 |
 | Pokemon suggestions for elite 4. What are some good tanks /special attackers I could bring to the e4? | help_request | 0.27 |
 | YAYY I did it. Was a lot easier than I remembered, thanks Pokemon Showdown | help_request | 0.26 |
-|------|-----------------|------------------|
 
 ---
 
