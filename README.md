@@ -9,6 +9,25 @@ The Community that I’ve chosen is r/PokemonUnbound, a SubReddit dedicated to t
 
 ---
 
+### Labels
+help_request: The Primary Purpose of the Post is to seek Assistance, Advice, Clarifications or Solutions related to the Gameplay, Progression, Technical Issues or Game Features.
+     - “Where do I find Riolu in this game?”
+     - “I’m having trouble downloading the game.” 
+
+achievements: The Primary Purpose of the Post is to share a User’s of their Personal Accomplishments, Challenge Completion, Hall of Fame Team, Shiny Encounter, Milestone or other achievements.
+     - "Finally beat the Elite Four with my Mono Fire Run!”
+     - “After 15,357 encounters, I finally found a Shiny Riolu!”
+
+discussion: The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
+     - “I created a Pokemon Unbound Sequel/Remake.”
+     - “Do you guys think Unbound is better than Radical Red?”
+
+team_building: The Primary Purpose of the Post is to Discuss, Evaluate, Recommend, or Optimize Pokemon Teams, Movesets, Team Composition, Synergy or Battle Strategy.
+     - “Rate my team before I challenge the Elite Four.”
+     - “I’m running an ice type monotype run, what ice pokemons are good?”
+
+---
+
 ## Annotated Dataset
 See r_PokemonUnbound_Posts_Data
 
@@ -27,25 +46,6 @@ Example 3:
 Post: "Quick trade, need a scyther. Anybody got a Scyther they could trade real quick?"
 Decision: discussion
 Reasoning: Despite the fact that the User is asking for an assistance, in which this case, a trade, this post doesn't generally ask needing help regarding the game mechanics. It is more like a deal with other users.
-
----
-
-### Labels
-help_request: The Primary Purpose of the Post is to seek Assistance, Advice, Clarifications or Solutions related to the Gameplay, Progression, Technical Issues or Game Features.
-     - “Where do I find Riolu in this game?”
-     - “I’m having trouble downloading the game.” 
-
-achievements: The Primary Purpose of the Post is to share a User’s of their Personal Accomplishments, Challenge Completion, Hall of Fame Team, Shiny Encounter, Milestone or other achievements.
-     - "Finally beat the Elite Four with my Mono Fire Run!”
-     - “After 15,357 encounters, I finally found a Shiny Riolu!”
-
-discussion: The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
-     - “I created a Pokemon Unbound Sequel/Remake.”
-     - “Do you guys think Unbound is better than Radical Red?”
-
-team_building: The Primary Purpose of the Post is to Discuss, Evaluate, Recommend, or Optimize Pokemon Teams, Movesets, Team Composition, Synergy or Battle Strategy.
-     - “Rate my team before I challenge the Elite Four.”
-     - “I’m running an ice type monotype run, what ice pokemons are good?”
 
 ---
 
