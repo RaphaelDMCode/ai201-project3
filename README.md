@@ -10,21 +10,25 @@ The Community that I’ve chosen is r/PokemonUnbound, a SubReddit dedicated to t
 ---
 
 ### Labels
-help_request: The Primary Purpose of the Post is to seek Assistance, Advice, Clarifications or Solutions related to the Gameplay, Progression, Technical Issues or Game Features.
-     - “Where do I find Riolu in this game?”
-     - “I’m having trouble downloading the game.” 
+[help_request]
+The Primary Purpose of the Post is to seek Assistance, Advice, Clarifications or Solutions related to the Gameplay, Progression, Technical Issues or Game Features.
+- “Where do I find Riolu in this game?”
+- “I’m having trouble downloading the game.” 
 
-achievements: The Primary Purpose of the Post is to share a User’s of their Personal Accomplishments, Challenge Completion, Hall of Fame Team, Shiny Encounter, Milestone or other achievements.
-     - "Finally beat the Elite Four with my Mono Fire Run!”
-     - “After 15,357 encounters, I finally found a Shiny Riolu!”
+[achievements]
+The Primary Purpose of the Post is to share a User’s of their Personal Accomplishments, Challenge Completion, Hall of Fame Team, Shiny Encounter, Milestone or other achievements.
+- "Finally beat the Elite Four with my Mono Fire Run!”
+- “After 15,357 encounters, I finally found a Shiny Riolu!”
 
-discussion: The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
-     - “I created a Pokemon Unbound Sequel/Remake.”
-     - “Do you guys think Unbound is better than Radical Red?”
+[discussion]
+The Primary Purpose of the Post is to present an Opinion, Comparison, Question, or an Idea intended to generate a Conversation among the Community Members.
+- “I created a Pokemon Unbound Sequel/Remake.”
+- “Do you guys think Unbound is better than Radical Red?”
 
-team_building: The Primary Purpose of the Post is to Discuss, Evaluate, Recommend, or Optimize Pokemon Teams, Movesets, Team Composition, Synergy or Battle Strategy.
-     - “Rate my team before I challenge the Elite Four.”
-     - “I’m running an ice type monotype run, what ice pokemons are good?”
+[team_building]
+The Primary Purpose of the Post is to Discuss, Evaluate, Recommend, or Optimize Pokemon Teams, Movesets, Team Composition, Synergy or Battle Strategy.
+- “Rate my team before I challenge the Elite Four.”
+- “I’m running an ice type monotype run, what ice pokemons are good?”
 
 ---
 
@@ -32,54 +36,54 @@ team_building: The Primary Purpose of the Post is to Discuss, Evaluate, Recommen
 See r_PokemonUnbound_Posts_Data
 
 ### Difficult Labels
-Example 1:
-Post: "Finnaly finished my first run of Pokemon Unbound. This is one of the “original” rom hacks I really enjoyed. Second to Heart & Soul. What do you think my team says about me?"
-Decision: achievements
-Reasoning: Despite te User is asking others of what they think about him based on his team, inviting a conversation to happen, the purpose of this post isthat the User is showcasing their first completion on beating the Elite Four.
+[Example 1]
+- Post: "Finnaly finished my first run of Pokemon Unbound. This is one of the “original” rom hacks I really enjoyed. Second to Heart & Soul. What do you think my team says about me?"
+= Decision: achievements
+- Reasoning: Despite te User is asking others of what they think about him based on his team, inviting a conversation to happen, the purpose of this post isthat the User is showcasing their first completion on beating the Elite Four.
 
-Example 2: 
-Post: "Must haves for the game. Tell me ur must have mons for your team in this game, I'm 4 badges into this game and I have enjoyed it but I'm struggling to find a team that doesn't struggle."
-Decision: team_building
-Reasoning: Despite the User is asking other's of their experiences, the main purpose of this post is to ask any pokemon recommendations.
+[Example 2]
+- Post: "Must haves for the game. Tell me ur must have mons for your team in this game, I'm 4 badges into this game and I have enjoyed it but I'm struggling to find a team that doesn't struggle."
+- Decision: team_building
+- Reasoning: Despite the User is asking other's of their experiences, the main purpose of this post is to ask any pokemon recommendations.
 
 Example 3: 
-Post: "Quick trade, need a scyther. Anybody got a Scyther they could trade real quick?"
-Decision: discussion
-Reasoning: Despite the fact that the User is asking for an assistance, in which this case, a trade, this post doesn't generally ask needing help regarding the game mechanics. It is more like a deal with other users.
+- Post: "Quick trade, need a scyther. Anybody got a Scyther they could trade real quick?"
+- Decision: discussion
+- Reasoning: Despite the fact that the User is asking for an assistance, in which this case, a trade, this post doesn't generally ask needing help regarding the game mechanics. It is more like a deal with other users.
 
 ---
 
 ## Label Distribution
-help_request 	  → 	60	→ 	30%
-achievements 	  → 	55	→ 	27.5%
-team_building 	→ 	44	→ 	22%
-discussion 		  → 	41	→ 	20.5%
+- help_request      → 60	→ 30%
+- achievements      → 55	→ 27.5%
+- team_building     → 44 → 22%
+- discussion        → 41 → 20.5%
 
 -- 
 
 ## Evaluation Report of Models
 
 ### Overall Accuracy
-Model                               			Accuracy
+Model                               	  Accuracy
 ---------------------------------------------------
-Zero-shot baseline (Groq)              	  0.633
+Zero-shot baseline (Groq)              	     0.633
 Fine-tuned DistilBERT                  		0.300
 ---------------------------------------------------
 
 ### Per-class Metrics
 [Baseline (Groq)]
 [Labels]          [Precision]  [Recall]  [F1-Score]  [Support]
-help_request         0.53		     0.89		    0.67		     9
-achievements         0.88		     0.78		    0.82		     9
-discussion           0.33      	 0.17      	0.22         6
-team_building        0.75      	 0.50		    0.60         6
+help_request         0.53	   0.89	    0.67		  9
+achievements         0.88	   0.78	    0.82		  9
+discussion           0.33        0.17       0.22         6
+team_building        0.75        0.50	    0.60         6
 
 [Fine-Tuned DistilBERT]
 [Labels]          [Precision]  [Recall]  [F1-Score]  [Support]
-help_request         0.31		     1.00		    0.47		     9
-achievements         0.00		     0.00		    0.00		     9
-discussion           0.00      	 0.00      	0.00         6
-team_building        0.00      	 0.00		    0.00         6
+help_request         0.31	   1.00	    0.47		  9
+achievements         0.00	   0.00	    0.00		  9
+discussion           0.00        0.00       0.00         6
+team_building        0.00        0.00	    0.00         6
 
 ### Fine-Tuned Model Confusion Matrix
 [True/Predicted Label]      [help_request]    [achievements]    [discussion]    [team_building]
